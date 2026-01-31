@@ -1,14 +1,24 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# Secrets / keys / credentials (do NOT commit)
+*.key
+*.pem
+*.pfx
+*.p12
+*.kdbx
+id_*
+authorized_keys
+known_hosts
 
-pkg/
-src/
+# WireGuard configs (do NOT commit)
+*.conf
+wireguard*
+wg*.conf
+
+# Evidence: keep examples only; store raw dumps locally
+evidence/raw/
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.log
