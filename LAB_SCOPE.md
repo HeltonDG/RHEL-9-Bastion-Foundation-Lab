@@ -1,0 +1,1 @@
+This repository documents the secure bastion architecture that serves as the administrative foundation for future infrastructure labs. Subsequent projects build on this design rather than replacing it.
